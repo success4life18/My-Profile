@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family= Abhaya+Libre| EB+Garamond|Galada|Judson|Ibarra+Real+Nova|Lato|Lobster|Martel|Neuton|Noto+Serif|Open+Sans|PT+Serif+Caption|Playfair+Display+SC|Roboto|Unna&display=swap');
+
+:root {
+    --primary-color: #41c0d1;
+    --secondary-color: #1b9bff;
+    --main-font: 'Martel', 'Noto Serif';
+    --content-font: 'Judson', 'Abhaya Libre';
+}
+
+
+.container {
+    display: flex;
+    margin: 10px 200px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#main div{
+    flex: 100px;
+    padding: 30px 0;
+}
+
+body {
+    background: url(https://miro.medium.com/max/3840/1*xMuIOwjliGUPjkzukeWKfw.jpeg);
+    -webkit-font-smoothing: antialiased;
+    color: #e4dcdc;
+    padding: 50px;
+    height: 100%;
+}
+
+
+#main {
+    background: url(https://templatemo.com/banners/desktop-display-bg.jpg);
+    margin-bottom: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: var(--content-font);
+    font-size: 1.2rem;
+    
+}
+
+#main h1, h2{
+    color: rgb(13, 0, 255);
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: var(--main-font);
+}
+
+.section {
+    background: rgba(0, 68, 255, 0.425);
+}
+
+img {
+    
+    width: 300px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+
+}
+
+.section p {
+    text-align: center;
+}
+
+.section h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+.footer {
+    
+    font-family: var(--content-font);
+    font-size: 1.2rem;
+    text-align: center;
+}
+.form-btn {
+    display: flexbox;
+    background: rgba(0, 68, 255, 0.425);
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: var(--content-font);
+    font-weight: 300;
+    margin-top: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.form-btn:hover {
+    background: rgba(3, 0, 15, 0.425);
+    
+}
+@media screen and (min-width: 768px) {
+    img {
+        margin-top: 68px;
+        margin-right: 10px;
+    }
+    .section h3 {
+        margin-top: 20px;
+    }
+    .section p {
+        margin-top: 10px;
+    }
+}
+
