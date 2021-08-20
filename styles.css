@@ -11,6 +11,20 @@
     margin: 0;
     box-sizing: "border-box";
 }
+
+/*header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .i4g-logo {
+    width: 1rem;
+    height: 1rem;
+  }
 */
 .container {
     display: flex;
@@ -31,24 +45,24 @@
 body {
     background: url(https://miro.medium.com/max/3840/1*xMuIOwjliGUPjkzukeWKfw.jpeg);
     -webkit-font-smoothing: antialiased;
-    color: #e4dcdc;
+    color: white;
     padding: 3vw;
     height: 10vw;
 }
 
 
 #main {
-    background: url(https://templatemo.com/banners/desktop-display-bg.jpg);
+    /*background: url(https://templatemo.com/banners/desktop-display-bg.jpg);*/
     margin-bottom: 5vw;
     padding: 0.5vw;
     box-sizing: border-box;
     font-family: var(--content-font);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     
 }
 
 #main h1, h2{
-    color: rgb(13, 0, 255);
+    color: black;
     font-size: 1.2rem;
     margin: 0.5vw 0;
     font-family: var(--main-font);
@@ -72,12 +86,13 @@ img {
 .section p {
     text-align: center;
     margin: 1vw 0;
+    color: white;
 }
 
-.section h3 {
+.section h3  {
     text-align: center;
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 
 .footer {
@@ -86,7 +101,19 @@ img {
     font-size: 1.2rem;
     text-align: center;
 }
-.form-btn {
+.i4g-logo {
+    left: 0;
+    line-height: 20px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    top: 100%;
+    width: 100px;
+    max-width: 100px;
+    margin-bottom: 0 !important;
+}
+
+/*.form-btn {
     display: flexbox;
     background: rgba(0, 68, 255, 0.425);
     color: #fff;
@@ -106,7 +133,7 @@ img {
 .form-btn:hover {
     background: rgba(3, 0, 15, 0.425);
     
-}
+}*/
 @media screen and (max-width: 768px) {
     img {
         margin-top: 68px;
